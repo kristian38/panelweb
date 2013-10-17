@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Demo Colorbox</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/colorbox.css" />
+		<script src="js/jquery-1.9.1.js"></script>
+		<script src="js/jquery.colorbox-min.js"></script>
+		<script>
+		jQuery(document).ready(function () {
+			jQuery('a.imagenes').colorbox({ opacity:0.5 , rel:'group1' });
+		});
+		</script>
+	</head>
+	<body>
+		<a class="imagenes" href="imagenes/100_0881.jpg">Imagen 1</a><br>
+		<a class="imagenes" href="imagenes/100_0882.jpg">Imagen 2</a><br>
+		<a class="imagenes" href="imagenes/100_0883.jpg">Imagen 3</a><br>
+		<a class="imagenes" href="imagenes/100_0884.jpg">Imagen 4</a><br>
+		<a class="imagenes" href="imagenes/100_0885.jpg">Imagen 5</a><br>
+		<script>
+		jQuery('a.imagenes').colorbox();
+		</script>
+	</body>
+</html>
